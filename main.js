@@ -22,3 +22,5 @@ do {
 } while (x < 50);
 
 document.getElementById("snak1Length").innerHTML = `Hai generato ${array1Sneck1.length} numeri, di cui la somma è ${x} Indi hai superato la tua quota di 50 e il giochino è finito. Buona giornata.`
+// !SECTION - Snecchino 1 fine
+
