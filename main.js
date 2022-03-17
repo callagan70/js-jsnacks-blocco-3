@@ -57,22 +57,16 @@ z = parseInt(0)
 let arrey4_nomi = ["pippo", "pluto", "paperino", "minni", "paperone", "qui", "quo", "qua"]
 let arrey4_x =prompt("Dammi il nome");
 
-
-      console.log(arrey4_nomi.length)
-for (let i = 0; i  <  arrey4_nomi.length0; i++) {
-
-      console.log(i)
+for ( i = 0; i  <=  arrey4_nomi.length; i++) {
+  console.log(i)
   if (arrey4_x == arrey4_nomi[i]) {
     document.getElementById("snecchino4").innerHTML = "Il tuo nome è nella lista puoi entrare";
-    // break
-  }
-
-    else {
-      document.getElementById("snecchino4").innerHTML = "Il tuo nome non è nella lista indi non puoi entrare";
-    }
+    document.getElementById("break").innerHTML = "Sono uscito dopo " + i + " cicli con il break su " + arrey4_nomi.length + " possibilità. per verificarlo controlla il console.log"
+    break;}
+    else {document.getElementById("snecchino4").innerHTML = "Il tuo nome non è nella lista indi non puoi entrare";}
 }
 
-// for (let i = 0; i  <  arrey4_nomi.length0; i++) {
+// for (let i = 0; i  >  arrey4_nomi.length; i++) {
 //   x=i
 //   console.log(i, x)
 //   if (arrey4_x == arrey4_nomi[x]) {
